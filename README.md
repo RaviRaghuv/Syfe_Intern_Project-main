@@ -164,7 +164,7 @@ http://localhost:8080
 
 ---
 
-## 📡 Monitoring Setup
+##  Monitoring Setup
 
 ### Step 1 — Add kube-prometheus-stack Helm repo
 
@@ -277,6 +277,6 @@ kubectl delete ns monitoring
 ##  Maintainer
 
   Ravi kumar
-📩 GitHub: _mrperfect0603_
+📩 GitHub: RaviRaghuv
 
 Feel free to fork, star ⭐ and improve!
