@@ -7,13 +7,13 @@
 
 This project implements a **real production-style WordPress deployment** on Kubernetes using:
 
-✔ Helm chart  
-✔ Custom-built Docker images  
-✔ Persistent storage  
-✔ Nginx reverse proxy  
-✔ Prometheus monitoring  
-✔ Grafana dashboards  
-✔ Alertmanager alerts
+ Helm chart  
+ Custom-built Docker images  
+ Persistent storage  
+ Nginx reverse proxy  
+ Prometheus monitoring  
+ Grafana dashboards  
+Alertmanager alerts
 
 The project teaches end-to-end DevOps — from infrastructure to observability.
 
@@ -41,13 +41,13 @@ flowchart LR
 
 ##  Features
 
-✔ WordPress FPM deployed on Kubernetes  
-✔ MySQL backend  
-✔ OpenResty (NGINX + Lua) reverse proxy  
-✔ ReadWriteMany PVC for WordPress storage  
-✔ Prometheus scraping + kube metrics  
-✔ Grafana dashboards: CPU, memory, requests, 5xx errors  
-✔ Alerting support included  
+WordPress FPM deployed on Kubernetes  
+MySQL backend  
+OpenResty (NGINX + Lua) reverse proxy  
+ReadWriteMany PVC for WordPress storage  
+Prometheus scraping + kube metrics  
+Grafana dashboards: CPU, memory, requests, 5xx errors  
+Alerting support included  
 
 ---
 
@@ -86,11 +86,11 @@ flowchart LR
 
 ## ✔ Prerequisites Checklist
 
-➡ Kubernetes cluster (Docker Desktop works)  
-➡ Helm installed  
-➡ kubectl installed  
-➡ Docker Hub account  
-➡ Git installed  
+Kubernetes cluster (Docker Desktop works)  
+Helm installed  
+kubectl installed  
+Docker Hub account  
+Git installed  
 
 ---
 
@@ -265,10 +265,10 @@ kubectl delete ns monitoring
 
 ##  Future Enhancements
 
-✔ Horizontal Pod Autoscaler  
-✔ SSL termination  
-✔ Ingress Controller  
-✔ CI/CD deployment  
+Horizontal Pod Autoscaler  
+SSL termination  
+Ingress Controller  
+CI/CD deployment  
 
 ---
 
