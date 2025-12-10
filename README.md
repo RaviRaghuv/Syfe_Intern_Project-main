@@ -84,7 +84,7 @@ Alerting support included
 
 ---
 
-## ✔ Prerequisites Checklist
+##  Prerequisites Checklist
 
 Kubernetes cluster (Docker Desktop works)  
 Helm installed  
@@ -183,7 +183,7 @@ helm install monitoring prometheus-community/kube-prometheus-stack -n monitoring
 
 ---
 
-## 🎛 Access Grafana
+##  Access Grafana
 
 Get password:
 
