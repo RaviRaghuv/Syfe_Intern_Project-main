@@ -1,0 +1,17 @@
+wordpress:
+  replicaCount: 1
+  image:
+    repository: vivekshaurya/wordpress
+    tag: latest
+
+mysql:
+  image:
+    repository: vivekshaurya/mysql
+    tag: latest
+    
+nginx:
+  replicaCount: 1
+  image:
+    repository: vivekshaurya/nginx-openresty
+    tag: v3
+    pullPolicy: Always
