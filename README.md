@@ -25,14 +25,16 @@ The project teaches end-to-end DevOps — from infrastructure to observability.
 
 ```mermaid
 flowchart LR
-    User --> NGINX
+    User --> Ingress
+    Ingress --> NGINX
     NGINX --> WordPress
     WordPress --> MySQL
-    Prometheus -->|scrapes| NGINX
+
     Prometheus -->|scrapes| WordPress
+    Prometheus -->|scrapes| NGINX
     Prometheus -->|scrapes| MySQL
+
     Grafana --> Prometheus
-    AlertManager --> Prometheus
 ```
 
 ---
