@@ -28,12 +28,12 @@ flowchart LR
     User --> NGINX
     NGINX --> WordPress
     WordPress --> MySQL
-
-    Prometheus -->|scrapes| WordPress
     Prometheus -->|scrapes| NGINX
+    Prometheus -->|scrapes| WordPress
     Prometheus -->|scrapes| MySQL
-
     Grafana --> Prometheus
+    AlertManager --> Prometheus
+
 ```
 
 ---
