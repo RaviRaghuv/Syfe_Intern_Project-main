@@ -25,8 +25,7 @@ The project teaches end-to-end DevOps — from infrastructure to observability.
 
 ```mermaid
 flowchart LR
-    User --> Ingress
-    Ingress --> NGINX
+    User --> NGINX
     NGINX --> WordPress
     WordPress --> MySQL
 
